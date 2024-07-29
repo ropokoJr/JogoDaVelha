@@ -1,13 +1,12 @@
 import React from 'react'
 import { TouchableOpacity } from 'react-native'
-import { EnTypo } from '@expo/vector-icons'
+import { Entypo } from '@expo/vector-icons'
 
-export default function figura() {
+export default function Figura() {
   return (
-    <View>
-      <Text>figura</Text>
-    </View>
+    <TouchableOpacity>
+      <Entypo name="circle" size={80} color ="#000" />
+    </TouchableOpacity>
   )
 }
 
-const styles = StyleSheet.create({})
